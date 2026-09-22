@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "productivity-server": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/absolute/path/to/mcp-productivity-server",
+        "python",
+        "src/mcp_productivity_server/server.py"
+      ]
+    }
+  }
+}
